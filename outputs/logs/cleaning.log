@@ -1,0 +1,9 @@
+2026-02-02 19:32:53.826 | INFO     | src.cleaning:detect_ghost_trips:74 - Detecting ghost trips in yellow_unified_yellow_tripdata_2025-01.parquet...
+2026-02-02 19:32:55.009 | INFO     | src.cleaning:detect_ghost_trips:180 -   Total trips: 3,475,226
+2026-02-02 19:32:55.010 | INFO     | src.cleaning:detect_ghost_trips:181 -   Clean trips: 3,241,200
+2026-02-02 19:32:55.010 | INFO     | src.cleaning:detect_ghost_trips:182 -   Ghost trips: 234,026 (6.73%)
+2026-02-02 19:32:55.010 | WARNING  | src.cleaning:detect_ghost_trips:186 -     negative_fare: 144,387 trips
+2026-02-02 19:32:55.010 | WARNING  | src.cleaning:detect_ghost_trips:186 -     zero_distance_positive_fare: 73,912 trips
+2026-02-02 19:32:55.011 | WARNING  | src.cleaning:detect_ghost_trips:186 -     short_trip_high_fare: 12,590 trips
+2026-02-02 19:32:55.013 | WARNING  | src.cleaning:detect_ghost_trips:186 -     excessive_speed: 3,017 trips
+2026-02-02 19:32:55.013 | WARNING  | src.cleaning:detect_ghost_trips:186 -     negative_duration: 120 trips

@@ -1,0 +1,4 @@
+2026-02-02 19:31:52.010 | INFO     | src.ingestion:download_file_with_retry:62 - Downloading https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-01.parquet (attempt 1/1)
+2026-02-02 19:32:18.495 | SUCCESS  | src.ingestion:download_file_with_retry:83 - Downloaded yellow_tripdata_2025-01.parquet
+2026-02-02 19:52:23.178 | INFO     | src.ingestion:download_file_with_retry:62 - Downloading https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-02.parquet (attempt 1/1)
+2026-02-02 19:52:53.238 | SUCCESS  | src.ingestion:download_file_with_retry:83 - Downloaded test_download.parquet
