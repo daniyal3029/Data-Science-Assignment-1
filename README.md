@@ -18,7 +18,7 @@ On January 5, 2025, New York City implemented a congestion pricing toll for vehi
 
 **Key Achievement:** Processed **50+ GB** of data (3.4M+ trips) using out-of-core processing without loading full datasets into memory.
 
-## ⚑ Deliverables
+## ⚓ Deliverables
 
 - ✅ **`pipeline.py`** - Automated, reproducible 9-phase data pipeline
 - ✅ **`audit_report.pdf`** - 12-page comprehensive report with embedded visualizations
@@ -26,18 +26,17 @@ On January 5, 2025, New York City implemented a congestion pricing toll for vehi
 - ✅ **4 Visualizations** - Publication-quality matplotlib charts (300 DPI PNG)
 - ✅ **Complete Documentation** - Learning guides and walkthroughs
 
-## 💻 Project Structure
-
+## ✎ Project Structure
 ```
 DataScience_Assignment1/
 ├─ data/                       # Data layer (gitignored - 50+ GB)
 │   ├─ raw/                    # Original TLC parquet files (72 files)
 │   │   ├─ yellow/             # Yellow taxi data (2023-2025)
-│   │   │└─ green/              # Green taxi data (2023-2025)
+│   │   │   └─ green/              # Green taxi data (2023-2025)
 │   ├─ processed/              # Cleaned, unified data
 │   │   ├─ unified/            # Schema-unified datasets
-│   │   │└─ clean/              # Ghost trips removed
-│   │└─ aggregated/             # Small aggregated files for viz (~1 MB)
+│   │   │   └─ clean/              # Ghost trips removed
+│   │   └─ aggregated/             # Small aggregated files for viz (~1 MB)
 │
 ├─ src/                        # Modular Python code (10 modules)
 │   ├─ config.py               # Central configuration
@@ -52,23 +51,22 @@ DataScience_Assignment1/
 │   │   └─ report.py               # PHASE 11: PDF report generation
 │
 ├─ dashboard/                  # Python Tkinter GUI
-│   │└─ app.py                  # Interactive dashboard (5 tabs)
+│   └─ app.py                  # Interactive dashboard (5 tabs)
 ├─ outputs/                    # Generated outputs
 └─ 
 ```
-## 🏠 Getting Started
 
-To get started, follow these steps:
-
+## Getting Started
+To get started with this project, follow these steps:
 1. Clone the repository using `git clone https://github.com/daniyal3029/Data-Science-Assignment-1.git`
 2. Install the required dependencies using `pip install -r requirements.txt`
 3. Run the pipeline using `python pipeline.py`
 4. Open the dashboard using `python dashboard/app.py`
 
-## 💻 Contributing
-
-Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request.
-
-## 🏠 License
-
-This project is licensed under the Academic License.
+## Contributing
+To contribute to this project, please follow these steps:
+1. Fork the repository using `git fork https://github.com/daniyal3029/Data-Science-Assignment-1.git`
+2. Create a new branch using `git branch <branch-name>`
+3. Make your changes and commit them using `git commit -m '<commit-message>'`
+4. Push your changes using `git push origin <branch-name>`
+5. Create a pull request using `git pull-request <branch-name>`
