@@ -52,13 +52,23 @@ DataScience_Assignment1/
 
 ├─ dashboard/                  # Python Tkinter GUI
     └─ ├─ app.py                  # Interactive dashboard (5 tabs)
-├─ outputs/                    # Generated outputs
-    └─ ├─ audit_report.pdf
-    └─ ├─ figures/
-    └─ ├─ logs/
+├─ outputs/ 
 
 ## Getting Started
-To get started, clone the repository and run `pip install -r requirements.txt`. Then, execute `python pipeline.py` to run the data pipeline.
+
+To get started with the project, follow these steps:
+
+1. Clone the repository using `git clone https://github.com/daniyal3029/Data-Science-Assignment-1.git`
+2. Install the required dependencies using `pip install -r requirements.txt`
+3. Run the pipeline using `python pipeline.py`
+4. Open the dashboard using `python dashboard/app.py`
 
 ## Contributing
-Contributions are welcome! To contribute, please fork the repository and submit a pull request. Please ensure that your code is well-documented and follows standard professional guidelines.
+
+To contribute to the project, please follow these guidelines:
+
+1. Fork the repository using `git fork https://github.com/daniyal3029/Data-Science-Assignment-1.git`
+2. Create a new branch using `git branch <branch-name>`
+3. Make changes and commit them using `git commit -m <commit-message>`
+4. Push the changes using `git push origin <branch-name>`
+5. Create a pull request to merge the changes into the main branch
