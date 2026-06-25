@@ -30,33 +30,35 @@ On January 5, 2025, New York City implemented a congestion pricing toll for vehi
 ```
 DataScience_Assignment1/
 ├─ data/                       # Data layer (gitignored - 50+ GB)
-└─ ├─ raw/                    # Original TLC parquet files (72 files)
-    └─ ├─ yellow/             # Yellow taxi data (2023-2025)
-        └─ ├─ green/              # Green taxi data (2023-2025)
-    └─ ├─ processed/              # Cleaned, unified data
-        └─ ├─ unified/            # Schema-unified datasets
-            └─ ├─ clean/              # Ghost trips removed
-        └─ ├─ aggregated/             # Small aggregated files for viz (~1 MB)
+│   ├─ raw/                    # Original TLC parquet files (72 files)
+│   │   ├─ yellow/             # Yellow taxi data (2023-2025)
+│   │   │   ├─ green/              # Green taxi data (2023-2025)
+│   ├─ processed/              # Cleaned, unified data
+│   │   ├─ unified/            # Schema-unified datasets
+│   │   │   ├─ clean/              # Ghost trips removed
+│   │   ├─ aggregated/             # Small aggregated files for viz (~1 MB)
 
 ├─ src/                        # Modular Python code (10 modules)
-    └─ ├─ config.py               # Central configuration
-        └─ ├─ ingestion.py            # PHASE 1: Automated web scraping
-        └─ ├─ schema.py               # PHASE 2: Schema unification
-        └─ ├─ cleaning.py             # PHASE 3: Ghost trip detection (5 rules)
-        └─ ├─ imputation.py           # PHASE 4: Missing data handling
-        └─ ├─ zones.py                # PHASE 5: Congestion zone filtering
-        └─ ├─ analysis.py             # PHASE 6-7: Compliance & comparison
-        └─ ├─ visualization.py        # PHASE 8: Matplotlib chart generation
-        └─ ├─ weather.py              # PHASE 9: Weather integration
-        └─ ├─ report.py               # PHASE 11: PDF report generation
+│   ├─ config.py               # Central configuration
+│   │   ├─ ingestion.py            # PHASE 1: Automated web scraping
+│   │   ├─ schema.py               # PHASE 2: Schema unification
+│   │   ├─ cleaning.py             # PHASE 3: Ghost trip detection (5 rules)
+│   │   ├─ imputation.py           # PHASE 4: Missing data handling
+│   │   ├─ zones.py                # PHASE 5: Congestion zone filtering
+│   │   ├─ analysis.py             # PHASE 6-7: Compliance & comparison
+│   │   ├─ visualization.py        # PHASE 8: Matplotlib chart generation
+│   │   ├─ weather.py              # PHASE 9: Weather integration
+│   │   ├─ report.py               # PHASE 11: PDF report generation
 
 ├─ dashboard/                  # Python Tkinter GUI
-    └─ ├─ app.py                  # Interactive dashboard (5 tabs)
+│   ├─ app.py                  # Interactive dashboard (5 tabs)
 ├─ outputs/ 
-## ✎ Getting Started
+
+## Getting Started
 To get started with this project, follow these steps:
 1. Clone the repository using `git clone https://github.com/daniyal3029/Data-Science-Assignment-1.git`
 2. Install the required dependencies using `pip install -r requirements.txt`
 3. Run the pipeline using `python pipeline.py`
-## ✎ Contributing
-Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
+
+## Contributing
+If you'd like to contribute to this project, please fork the repository and submit a pull request. Make sure to include a detailed description of your changes and follow the existing code style.
