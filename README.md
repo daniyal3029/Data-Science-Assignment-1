@@ -55,10 +55,18 @@ DataScience_Assignment1/
 ├─ outputs/ 
 
 ## Getting Started
-To get started with this project, follow these steps:
+To get started with the project, follow these steps:
 1. Clone the repository using `git clone https://github.com/daniyal3029/Data-Science-Assignment-1.git`
 2. Install the required dependencies using `pip install -r requirements.txt`
 3. Run the pipeline using `python pipeline.py`
+4. Explore the dashboard using `streamlit run dashboard/app.py`
 
 ## Contributing
-If you'd like to contribute to this project, please fork the repository and submit a pull request. Make sure to include a detailed description of your changes and follow the existing code style.
+If you'd like to contribute to the project, please follow these guidelines:
+1. Fork the repository using `git fork https://github.com/daniyal3029/Data-Science-Assignment-1.git`
+2. Create a new branch using `git branch <your-branch-name>`
+3. Make your changes and commit them using `git commit -m '<your-commit-message>'`
+4. Push your changes using `git push origin <your-branch-name>`
+5. Create a pull request using `git pull-request <your-branch-name>`
+
+Note: This project is licensed under the Academic License. Please see the LICENSE file for more information.
